@@ -1,0 +1,36 @@
+@use 'Popup';
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    animation: police 0.3s infinite;
+}
+
+@keyframes police {
+    0% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}
